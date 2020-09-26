@@ -1,0 +1,118 @@
+.custom-navbar {
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
+}
+.custom-navbar li a {
+  display: block;
+  font-size: 17px;
+  color: #616161;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 0.5rem;
+}
+.custom-navbar li a:hover {
+  background-color: #c3ffdd;
+  color: #616161;
+}
+
+.menu-icon {
+  display: none;
+  background-color: #39C574;
+  border: 1px solid transparent;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.menu-icon:hover {
+  background-color: #c3ffdd;
+}
+.menu-icon:focus {
+  outline: none;
+}
+.menu-icon span {
+  color: white;
+  font-size: 20px;
+}
+
+.ripple-wave {
+  position: relative;
+  transition: background-color 0.6s ease;
+  overflow: hidden;
+}
+.ripple-wave:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  transform-style: flat;
+  transform: translate3d(-50%, -50%, 0);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+.ripple-wave:focus, .ripple-wave:hover {
+  background: #62DB96;
+}
+.ripple-wave:active:after {
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 481px) and (max-width: 761px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header h1 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  header h1 {
+    margin-right: auto;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  .custom-navbar {
+    opacity: 0;
+    position: fixed;
+    z-index: 2;
+    top: 70px;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    width: 230px;
+    background-color: #fff;
+    transition: all 1s ease;
+  }
+  .custom-navbar.open {
+    opacity: 1;
+    right: 0;
+  }
+  .custom-navbar li {
+    display: block;
+  }
+  .custom-navbar li a {
+    text-align: left;
+    color: #616161;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
