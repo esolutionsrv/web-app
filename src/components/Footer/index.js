@@ -25,7 +25,7 @@ export default function Footer(){
         </Link>
 
         <a
-          href="http://www.esolution.srv.br:8000/accounts/central/login"
+          href="http://sgp.esolution.srv.br:8000/accounts/central/login"
           without
           rel="noopener noreferrer"
           target="_blank"
