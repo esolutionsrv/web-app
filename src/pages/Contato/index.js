@@ -25,7 +25,7 @@ function Contato(){
         <div className="card-contato">
           <h1>Telefones</h1>
           <p><a href="tel:08000420499">0800 042 0499</a></p>
-          <p><a href="https://wa.me/message/NHZ2IIJRHBS2P1">(92) 3020-4050</a></p>
+          <p><a href="https://api.whatsapp.com/send?phone=559230204050">(92) 3020-4050</a></p>
           <p><a href="tel:9230204061">(92) 3020-4061</a></p>
           <p><a href="tel:9232138224">(92) 3213-8224</a></p>
         </div>
