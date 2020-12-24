@@ -21,7 +21,7 @@ function CardPlanos() {
         </ul> */}
 
         <div className="button-container">
-          <a href="https://wa.me/message/NHZ2IIJRHBS2P1">
+          <a href="https://api.whatsapp.com/send?phone=559230204050">
             Assinar
           </a>
         </div>
@@ -43,7 +43,7 @@ function CardPlanos() {
         </ul> */}
 
         <div className="button-container">
-          <a href="https://wa.me/message/NHZ2IIJRHBS2P1">
+          <a href="https://api.whatsapp.com/send?phone=559230204050">
             Assinar
           </a>
         </div>
@@ -65,7 +65,7 @@ function CardPlanos() {
         </ul> */}
 
         <div className="button-container">
-          <a href="https://wa.me/message/NHZ2IIJRHBS2P1">
+          <a href="https://api.whatsapp.com/send?phone=559230204050">
             Assinar
           </a>
         </div>
@@ -87,7 +87,7 @@ function CardPlanos() {
         </ul> */}
 
         <div className="button-container">
-          <a href="https://wa.me/message/NHZ2IIJRHBS2P1">
+          <a href="https://api.whatsapp.com/send?phone=559230204050">
             Assinar
           </a>
         </div>
@@ -109,7 +109,7 @@ function CardPlanos() {
         </ul> */}
 
         <div className="button-container">
-          <a href="https://wa.me/message/NHZ2IIJRHBS2P1">
+          <a href="https://api.whatsapp.com/send?phone=559230204050">
             Assinar
           </a>
         </div>

@@ -17,7 +17,8 @@ import {
   Section01
 } from './styles';
 
-import ImageBandaLarga from '../../assets/img/bandaLarga.png'
+import ImageBandaLarga from '../../assets/img/bandaLarga.png';
+import contrato from '../../assets/downloads/CONTRATO_ESOLUTION.pdf';
 
 function Home(){
   return(
@@ -48,6 +49,18 @@ function Home(){
           <div className="card-feature">
             <MdFileDownload size={20} color="#27AE60" />
             <a
+              href={contrato}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+            >
+              <span>Baixar Contrato Esolution</span>
+            </a>
+          </div>
+
+          <div className="card-feature">
+            <MdFileDownload size={20} color="#27AE60" />
+            <a
               without
               rel="noopener noreferrer"
               href="http://sgp.esolution.srv.br:8000/accounts/central/login"
@@ -72,7 +85,7 @@ function Home(){
           <div className="card-feature">
             <IoLogoWhatsapp size={20} color="#27AE60" />
             <a
-              href="https://wa.me/message/NHZ2IIJRHBS2P1"
+              href="https://api.whatsapp.com/send?phone=559230204050"
               without
               rel="noopener noreferrer"
               target="_blank"
